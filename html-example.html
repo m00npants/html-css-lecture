@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML, CSS Example</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/table.css" />
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>HTML, CSS Basics Tutorial</h1>
+    </header>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Login</a>
+      <a href="#">Register</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+      <form>
+        <h3>Registration Form</h3>
+        <p>Please fill in this form to register.</p>
+        <hr />
+
+        <label for="fn"><b>First Name</b></label>
+        <input
+          type="text"
+          id="fn"
+          placeholder="Enter First Name"
+          name="firstName"
+          required
+        /><br />
+
+        <label for="ln"><b>Last Name</b></label>
+        <input
+          type="text"
+          id="ln"
+          placeholder="Enter Last Name"
+          name="lastName"
+          required
+        /><br />
+
+        <label for="email"><b>Email</b></label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter Email"
+          name="email"
+          required
+        /><br />
+
+        <label for="course">Course</label>
+        <select id="course" name="course">
+          <option value="1">Java</option>
+          <option value="2">C#</option>
+          <option value="3">Python</option></select
+        ><br />
+
+        <label for="description">Subject</label>
+        <textarea
+          id="description"
+          name="description"
+          placeholder="Enter subject details here..."
+        ></textarea
+        ><br />
+
+        <hr />
+        <br />
+
+        <button type="submit">Register</button>
+      </form>
+
+      <hr />
+
+      <!-- TABLE -->
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th colspan="2">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Andreas</td>
+            <td>Karlsson</td>
+            <td>
+              <button type="submit">Edit</button>
+            </td>
+            <td>
+              <button type="submit">Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Maria</td>
+            <td>Svensson</td>
+            <td>
+              <button type="submit">Edit</button>
+            </td>
+            <td>
+              <button type="submit">Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Johan</td>
+            <td>Andersson</td>
+            <td>
+              <button type="submit">Edit</button>
+            </td>
+            <td>
+              <button type="submit">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  <br />
+  <br />
+    
+
+
+    <!-- FOOTER -->
+     <div class="centered-logo">
+  <a href="https://www.lexicon.se" target="_blank">
+    <img src="images/lexicon.png" title="lexicon logo" width="150" height="50" alt="Lexicon logo">
+  </a>
+  <br />
+  <br />
+  <footer>&copy; 2025 Lexicon Växjö</footer>
+</div>
+  </body>
+</html>
