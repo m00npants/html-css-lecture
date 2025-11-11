@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML, CSS Example</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/table.css" />
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+<!-- MAIN CONTENT -->
+    <main class="container">
+      <form>
+        <h3>Registration Form</h3>
+        <p>Please fill in this form to register.</p>
+        <hr />
+
+        <label for="fn"><b>First Name</b></label>
+        <input
+          type="text"
+          id="fn"
+          placeholder="Enter First Name"
+          name="firstName"
+          required
+        /><br />
+
+        <label for="ln"><b>Last Name</b></label>
+        <input
+          type="text"
+          id="ln"
+          placeholder="Enter Last Name"
+          name="lastName"
+          required
+        /><br />
+
+        <label for="email"><b>Email</b></label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter Email"
+          name="email"
+          required
+        /><br />
+
+        <label for="course">Course</label>
+        <select id="course" name="course">
+          <option value="1">Java</option>
+          <option value="2">C#</option>
+          <option value="3">Python</option></select
+        ><br />
+
+        <label for="description">Subject</label>
+        <textarea
+          id="description"
+          name="description"
+          placeholder="Enter subject details here..."
+        ></textarea
+        ><br />
+
+        <hr />
+        <br />
+
+        <button type="submit">Register</button>
+        <button type="back" onclick="history.back()">Go Back</button>
+      </form>
