@@ -1,16 +1,21 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #eaf6ff;
+  background-image: url('../images/background.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; 
 }
 header {
-  background-color: black;
+  background-color: rgb(114, 20, 20);
   color: #eaf6ff;
   padding: 20px 10px 20px 10px;
   text-align: center;
   font-size: 32px;
 }
 nav {
-  background-color: gray;
+  background-color: rgb(63, 59, 59);
   padding: 10px;
   text-align: center;
 }
@@ -27,4 +32,8 @@ a {
 .centered-logo {
   text-align: center;
 }
+
+
+
+
 
