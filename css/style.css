@@ -38,7 +38,10 @@ footer {
   font-size: 10px;  
 }
 .hamburger-menu {
-  position: relative;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000; 
 }
 
 .menu-toggle {
@@ -53,10 +56,13 @@ footer {
 #mobile-nav {
   position: absolute;
   top: 50px;
-  left: 0;
-  width: 100%;
-  background-color: #33333356;
+  left: 10px;
+  width: auto;
   z-index: 1000;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  background-color: #33333356;
+
 }
 
 #mobile-nav ul {

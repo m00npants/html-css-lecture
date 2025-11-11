@@ -8,6 +8,27 @@
     <link rel="stylesheet" href="css/table.css" />
     <link rel="stylesheet" href="css/form.css" />
   </head>
+
+   <!-- NAVIGATION -->
+     <div class="hamburger-menu">
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  <nav id="mobile-nav" class="hidden">
+    <ul>
+      <li><a href="html-example.html">Start</a></li>
+      <li><a href="#">Om oss</a></li>
+      <li><a href="#">Kurser</a></li>
+      <li><a href="#">Kontakt</a></li>
+      <li><a href="#">Logga in</a></li>
+      <li><a href="registration.html">Registrera</a></li>
+    </ul>
+  </nav>
+</div>
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById("mobile-nav");
+    nav.classList.toggle("hidden");
+  }
+</script>
 <!-- MAIN CONTENT -->
     <main class="container">
       <form>
@@ -63,3 +84,13 @@
         <button type="submit">Register</button>
         <button type="back" onclick="history.back()">Go Back</button>
       </form>
+       <!-- FOOTER -->
+     <div class="centered-logo">
+  <a href="https://www.lexicon.se" target="_blank">
+    <img src="images/lexicon.png" title="lexicon logo" width="150" height="50" alt="Lexicon logo">
+  </a>
+  <br />
+  <footer>&copy; 2025 Lexicon Växjö </footer>
+</div>
+  </body>
+</html>
