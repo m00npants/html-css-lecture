@@ -8,7 +8,7 @@ body {
   background-attachment: fixed; 
 }
 header {
-  background-color: rgb(114, 20, 20);
+  background-color: rgba(114, 20, 20, 0);
   color: #eaf6ff;
   padding: 20px 10px 20px 10px;
   text-align: center;
